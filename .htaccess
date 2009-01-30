@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} www.static.nameremoved.com$
+RewriteRule ^(.*)$ http://static.nameremoved.com/$1 [R]
+Options -Indexes
+ErrorDocument 404 /notfound.html
