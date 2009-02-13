@@ -4,7 +4,7 @@
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
 
 /* body */
-body{margin:1.5em 0;line-height:1.5;background:white;font-family:"Optima",Arial,sans-serif;color:black;font-size:12px;}
+body{margin:1.5em 0;line-height:1.5;background:white;font-family:"Helvetica Neue", "Helvetica",Arial,sans-serif;color:black;font-size:12px;}
 
 /* layout */
 .container{width:950px;margin:0 auto;}
@@ -65,3 +65,43 @@ strong{font-weight:bold;}
 em{font-style:italic;}
 a:hover{background:#ccc;}
 #facebook{float:right;margin-top:-1.5em;}
+
+/* comic page */
+#title { margin-bottom: auto; margin-top: none;}
+#transcription{margin-right:0pt;float:left;width:550px;padding-right:0pt;}
+#saved{padding:0.5em; background:#EEE;margin-bottom:1em;}
+#topnav { float: right; padding: 0px; margin: 4px 0 0 0;}
+#topnav li { margin: 2px; padding: 0px; list-style: none; float:left; width: 14px;background-image: url(http://static.nameremoved.com/pix/arrows.png); overflow:hidden;} 
+#topnav a, #topnav li { height: 7px; display: block;}
+#topnavfirst {background-position: 0px 0px;}
+#topnavfirst:hover {background-position: 0px -16px;}
+#topnavfirstnot {background-position: 0px -8px;}
+#topnavprev {background-position: -15px 0px;}
+#topnavprev:hover {background-position: -15px -16px;}
+#topnavprevnot {background-position: -15px -8px;}
+#topnavnext {background-position: -30px 0px;}
+#topnavnext:hover {background-position: -30px -16px;}
+#topnavnextnot {background-position: -30px -8px;}
+#topnavlast {background-position: -45px 0px;}
+#topnavlast:hover {background-position: -45px -16px;}
+#topnavlastnot {background-position: -45px -8px;}
+#topnav a {text-indent: -600px;}
+#topnav a:hover {background: none;}
+#bottomnav li {width: 70px; float:left; padding-right: 5px;}
+#bottomnav span.currently {float:none;}
+#bottomnav li.forward { text-align: right; }
+#facebook a,#bottomnav a, #permalink a {border:1px solid;display:block;text-decoration:none;padding:0 0.5em 0 0.5em;border-color:#ccc;background-color:#fff;}
+#facebook a:hover, #bottomnav a:hover, #permalink a:hover, #suggester a:hover {background-color:#ccc;}
+
+/* contributions */
+.nrccs,.nrccs a{border:2px solid red;}
+.nrccs{padding:20px;margin:10px;}
+.nrccs a{display:block;padding:10px;}
+.nrccs a:hover{background:red;}
+#please{font-size:2em;}
+h4{color:#666;margin-top:1.5em;}
+.contribution{margin:0 6em 0.5em 6em;}
+#contributors .nav{margin:0 6em 0.5em 6em;}
+
+/* default contribute box */
+#suggester a {border:1px solid;display:block;text-decoration:none;padding:0 0.5em 0 0.5em;border-color:#ccc;background-color:#ff9;}
