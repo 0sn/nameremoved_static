@@ -104,4 +104,10 @@ h4{color:#666;margin-top:1.5em;}
 #contributors .nav{margin:0 6em 0.5em 6em;}
 
 /* default contribute box */
-#suggester a {border:1px solid;display:block;text-decoration:none;padding:0 0.5em 0 0.5em;border-color:#ccc;background-color:#ff9;}
+#suggester {background-color:#ff9; border: 1px solid;}
+#suggester a {display:block;text-decoration:none;padding:0 0.5em 0 0.5em;border-color:#ccc;}
+#suggester form {padding: 1.5em;}
+#suggester textarea, #suggester input {width:146px;}
+#suggester span.thanks {padding: 1.5em; display: block;}
+#suggester span.help, #suggester span.error { font-size: 0.9em;}
+#suggester span.error {color: red;}
