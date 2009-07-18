@@ -5,6 +5,7 @@ body{margin:1.5em 0;line-height:1.5;background:white;font-family:"Helvetica",Ari
 /* layout */
 #container{width:1080px;margin:0 auto;}
 #container:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+#container * {text-align:left;}
 a{text-decoration:none;color:#232156;font-style:italic;}
 a[href^="http://"]{color:#4a4a4a;}
 a:hover{color:white;background:#4a4a4a;}
