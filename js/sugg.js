@@ -15,6 +15,7 @@ $(document).ready(function(){
         $(this).append('<br><span id="#spin"><img src="http://static.nameremoved.com/pix/spinner.gif"></span>');
         $("#suggester").load('/contribute/submitjs/', function(){
             $("#contribformsubmit").click(do_suggest);
+            $("#id_aka").focus();
         });
         return false;
     });

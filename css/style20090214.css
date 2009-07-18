@@ -1,0 +1,113 @@
+/* based on blueprint */
+
+/* reset */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+
+/* body */
+body{margin:1.5em 0;line-height:1.5;background:white;font-family:"Helvetica Neue", "Helvetica",Arial,sans-serif;color:black;font-size:12px;}
+
+/* layout */
+.container{width:950px;margin:0 auto;}
+.container:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+    /* header*/
+#header{margin:0;float:right;width:190px;padding-right:0;}
+    /* mainbar */
+#mainbar{width:760px;float:left;}
+    /* page info (local headers)*/
+#pageinfo{float:right;width:190px;padding:0 10px 0 10px;}
+    /* main content box*/
+#main{float:left;width:550px;padding:0;margin:0;}
+    /* light background sidebar */
+#newsbar{float:left;width:190px;padding:0 10px 0 10px;}
+#contribution{padding:0 1.5em 0 1.5em;font-size:0.9em;}
+        /* ads */
+#pwblock{padding:1.5em;padding-top:0;margin-top:0;}
+#pwblock td{padding:0px;}
+#pwblock table{margin-bottom:0px;width:auto;}
+.pwlink{font-size:0.9em;}
+    /* dark background sidebar*/
+#sitebar{float:right;margin-top:10px;margin-right:0pt;width:190px;padding-right:0pt;}
+#copy{padding-left:1.5em;padding-right:1.5em;}
+#pig{text-align:center;padding:0;margin:0;}
+    /* used in debug mode */
+#sqldebug{clear:both;margin-right:0pt;padding-right:0pt;}
+    /* used all over the place */
+.box{background:#EEE;margin:0 0 1.5em 0;padding:1.5em;}
+
+/* headers */
+h1,h2,h3,h4,h5,h6{font-size:1em;font-weight:bold;line-height:1.5;margin-bottom:0px;}
+h1 img,h2 img,h3 img,h4 img,h5 img,h6 img{margin:0;}
+h3{color:#444;}
+
+/* lists */
+li ul{margin:0 1.5em;}
+ul{margin:0 1.5em 1.5em 1.5em;}
+
+/* the nav list */
+ul.nav li a,ul.nav li span.currently{border:1px solid;display:block;text-decoration:none;padding:0;padding-left:0.5em;}
+ul.nav li a{border-color:#ccc;background-color:#fff;}
+ul.nav li span.currently{border-color:#eee;background-color:#eee;}
+ul.nav li a:hover{background-color:#ccc;}
+ul.nav li a span{font-style:italic;}
+.nav{list-style-type:none;margin-left:0;margin-right:0;}
+#main li span { float: right; padding: 0 1em 0 1em;}
+/* some more cleanup */
+blockquote:before,blockquote:after,q:before,q:after{content:"";}
+blockquote,q{quotes:"" "";}
+
+/* text */
+p{margin:0 0 1.5em;}
+code{margin:1.5em 0;white-space:normal;font:1em 'andale mono','lucida console',monospace;line-height:1.5;width:550px;}
+a img{border:none;}
+a:focus,a:hover{color:#000;}
+a{color:#009;text-decoration:underline;}
+strong{font-weight:bold;}
+em{font-style:italic;}
+a:hover{background:#ccc;}
+#facebook{float:right;margin-top:-1.5em;}
+
+/* comic page */
+#title { margin-bottom: auto; margin-top: none;}
+#transcription{margin-right:0pt;float:left;width:550px;padding-right:0pt;}
+#saved{padding:0.5em; background:#EEE;margin-bottom:1em;}
+#topnav { float: right; padding: 0px; margin: 4px 0 0 0;}
+#topnav li { margin: 2px; padding: 0px; list-style: none; float:left; width: 14px;background-image: url(http://static.nameremoved.com/pix/arrows.png); overflow:hidden;} 
+#topnav a, #topnav li { height: 7px; display: block;}
+#topnavfirst {background-position: 0px 0px;}
+#topnavfirst:hover {background-position: 0px -16px;}
+#topnavfirstnot {background-position: 0px -8px;}
+#topnavprev {background-position: -15px 0px;}
+#topnavprev:hover {background-position: -15px -16px;}
+#topnavprevnot {background-position: -15px -8px;}
+#topnavnext {background-position: -30px 0px;}
+#topnavnext:hover {background-position: -30px -16px;}
+#topnavnextnot {background-position: -30px -8px;}
+#topnavlast {background-position: -45px 0px;}
+#topnavlast:hover {background-position: -45px -16px;}
+#topnavlastnot {background-position: -45px -8px;}
+#topnav a {text-indent: -600px;}
+#topnav a:hover {background: none;}
+#bottomnav li {width: 70px; float:left; padding-right: 5px;}
+#bottomnav span.currently {float:none;}
+#bottomnav li.forward { text-align: right; }
+#facebook a,#bottomnav a, #permalink a {border:1px solid;display:block;text-decoration:none;padding:0 0.5em 0 0.5em;border-color:#ccc;background-color:#fff;}
+#facebook a:hover, #bottomnav a:hover, #permalink a:hover, #suggester a:hover {background-color:#ccc;}
+
+/* contributions */
+.nrccs,.nrccs a{border:2px solid red;}
+.nrccs{padding:20px;margin:10px;}
+.nrccs a{display:block;padding:10px;}
+.nrccs a:hover{background:red;}
+#please{font-size:2em;}
+h4{color:#666;margin-top:1.5em;}
+.contribution{margin:0 6em 0.5em 6em;}
+#contributors .nav{margin:0 6em 0.5em 6em;}
+
+/* default contribute box */
+#suggester {background-color:#ff9; border: 1px solid;}
+#suggester a {display:block;text-decoration:none;padding:0 0.5em 0 0.5em;border-color:#ccc;}
+#suggester form {padding: 1.5em;}
+#suggester textarea, #suggester input {width:146px;}
+#suggester span.thanks {padding: 1.5em; display: block;}
+#suggester span.help, #suggester span.error { font-size: 0.9em;}
+#suggester span.error {color: red;}
