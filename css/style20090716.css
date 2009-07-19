@@ -38,7 +38,8 @@ p.storytitle{margin-bottom:0;font-style:italic;}
 code {white-space:normal;font:1em 'andale mono','lucida console',monospace;line-height:1.5;}
 #contribform{width:232px;margin:10px;padding-top:10px;padding-bottom:10px;}
 #suggester input, #suggester textarea {width:228px;border:1px solid #4a4a4a ;padding:1px;margin:0;background: #ccc; color:black;}
-#suggester #contribformsubmit {width: 230px;}
+#suggester #contribformsubmit {width: 230px; padding-left:10px;}
+#suggester #contribformsubmit:hover {background:#4a4a4a;color:white;cursor:pointer;}
 #suggester p {margin-bottom: 0;}
 #suggester .help, #suggester .errorlist {font-style: italic; margin: 0;}
 #suggester .errorlist {color: red;}
@@ -48,3 +49,5 @@ code {white-space:normal;font:1em 'andale mono','lucida console',monospace;line-
 #main .ui-state-active a, .currently {font-style: normal;color:red;}
 #main .ui-state-active a:hover {background: white;}
 .ui-tabs .ui-tabs-hide { display: none !important; }
+#searchtext {width: 300px;}
+#main hr {margin-top:1.5em;}
